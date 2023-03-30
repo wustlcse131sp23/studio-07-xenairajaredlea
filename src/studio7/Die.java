@@ -17,8 +17,7 @@ public class Die {
 	}
 	
 	public int rolledNum() {
-		return (int)(Math.random()*n)+
-				1;
+		return (int)(Math.random()*n)+1;
 	}
 
 	public static void main(String[] args) {
